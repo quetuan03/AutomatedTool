@@ -10,7 +10,7 @@ def test_sql_injection(url, params, sql_payloads,method='get'):
     vulnerable = False
     # print(params)
     # print("AAAA")
-    cookies = {'session':'5Z74fAEwXJNy1pdKgFi6uli9CfiHa8cg'}
+    cookies = {'session':'{Input cookie}'}
     for payload in sql_payloads:
         # test_params = {key: payload for key in params.keys()}
         test_params = {}
