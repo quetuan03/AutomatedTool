@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 import time
 def extract_forms(url):
-    cookies = {'session':'5Z74fAEwXJNy1pdKgFi6uli9CfiHa8cg'}
+    cookies = {'session':'{Input cookie}'}
     response = requests.get(url,cookies=cookies)
     soup = BeautifulSoup(response.text, "html.parser")
     
