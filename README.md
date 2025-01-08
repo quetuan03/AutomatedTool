@@ -13,4 +13,4 @@ payloads:
     + xss_injection.txt: XSS vulnerability test payload 
 3. Installation
 git clone https://github.com/quetuan03/AutomatedTool.git
-Interactive ModeL: python main.py
+Interactive Model: python main.py
